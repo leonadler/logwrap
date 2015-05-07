@@ -47,5 +47,13 @@ complexFunctionB = logwrap.wrapFunction(complexFunctionB, 'complexFunctionB');
 
 complexFunctionA(3.14159, 47); // logs to console
 complexFunctionB('Apple', 'Banana'); // logs to console
+```
 
+**Debugging whatever:**
+```javascript
+whatever = require('logwrap')(whatever);
+// or
+var logwrap = require('logwrap');
+myfunction = logwrap(myfunction);
+myclass = logwrap(myclass);
 ```
