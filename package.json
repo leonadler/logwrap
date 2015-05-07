@@ -1,0 +1,24 @@
+{
+	"name": "logwrap",
+	"version": "0.0.1",
+	"description": "Verbose logger module to debug classes in node.js and your browser.",
+	"author": {
+        "name": "Leon Adler",
+        "url": "https://github.com/leonadler"
+    },
+	"keywords": [
+		"debugging",
+		"console",
+		"classes",
+		"development"
+	],
+	"license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leonadler/logwrap.git"
+    },
+    "bugs": "https://github.com/leonadler/logwrap/issues",
+	"dependencies": {},
+	"devDependencies": {},
+	"main": "./lib/logwrap.js"
+}
